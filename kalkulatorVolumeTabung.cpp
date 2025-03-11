@@ -1,6 +1,6 @@
-#include <iostream> // library c++ 
+#include <iostream> // library c++ merakyat;
 
-using namespace std; // 
+using namespace std; // biar tidak menulis [std::cout <<] karena nanti terlalu panjang kalo gak make ini;
 
 int main() {
     cout << "+--------------------------+\n"; // judul program;
