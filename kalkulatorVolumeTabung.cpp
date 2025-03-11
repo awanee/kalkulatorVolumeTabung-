@@ -1,6 +1,6 @@
-#include <iostream>
+#include <iostream> // library c++ 
 
-using namespace std;
+using namespace std; // 
 
 int main() {
     cout << "+--------------------------+\n"; // judul program;
