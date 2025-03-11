@@ -11,8 +11,10 @@ int main() {
     int jari, tinggi;
     float volume;
 
-    cout << "Masukkan Nilai Jari-Jari: "; cin >> jari; // meminta user untuk menginputkan nilai; 
-    cout << "Masukkan Nilai Tinggi Tabung; "; cin >> tinggi;
+    cout << "Masukkan Nilai Jari-Jari: "; // meminta user untuk menginputkan nilai;
+    cin >> jari; // nilai disimpan di variabel ini;  
+    cout << "Masukkan Nilai Tinggi Tabung; "; 
+    cin >> tinggi;
 
     volume = phi * (jari * jari) * tinggi; // rumus ditulis setelah program meminta user untuk menginputkan nilai;
 
